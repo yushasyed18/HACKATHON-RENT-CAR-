@@ -70,21 +70,6 @@ border-left: 2px solid #135EAC1F;
     font-weight: 500;
 }
 
-@media (max-width: 580px) {
-  .section1_bottom{
-    display: none;
-  }
-}
-
-@media (max-width: 580px) {
-  .hero-car img{
-    width: 400px;
-    margin-top: 80px;
-    margin-left: -50px;
-    margin-bottom: 0px;
-  }
-}
-
 .how-section{
   border-bottom: 1px solid lightslategrey;
 }
