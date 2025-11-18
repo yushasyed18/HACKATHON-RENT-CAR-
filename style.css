@@ -3,13 +3,13 @@ body {
 }
 
 .hero-section {
-    padding: 80px;
+    padding: 80px 0;
     border-bottom: 1px solid #666;
 }
 
 .hero-title {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .hero-title span {
@@ -29,8 +29,7 @@ body {
 
 
 .section1_bottom{
-    margin-top: 10px;
-    /* margin-bottom: 200px; */
+    margin-top: -10px;
     padding: 10px;
     box-shadow: 0px 6px 12px 0px #135EAC1F;
     border: none;
@@ -46,7 +45,11 @@ body {
   border-radius: 8px;
 }
 
-
+@media (max-width: 435px) {
+  .search{
+    display: none;
+  }
+}
 
 .p_date, .r_date{
 border-left: 2px solid #135EAC1F;
