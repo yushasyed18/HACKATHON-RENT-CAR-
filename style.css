@@ -3,7 +3,7 @@ body {
 }
 
 .hero-section {
-    padding: 80px 0;
+    padding: 80px;
     border-bottom: 1px solid #666;
 }
 
@@ -21,7 +21,7 @@ body {
     font-size: 16px;
     width: 80%;
 }
-
+      
 .hero-car img {
     width: 100%;
     height: auto;
@@ -70,48 +70,51 @@ border-left: 2px solid #135EAC1F;
     font-weight: 500;
 }
 
-.tag{
-  color: rgba(21, 114, 211, 1);
-  background-color: rgba(21, 114, 211, 0.1);
-  padding: 5px 10px;
-  font-weight: bold;
+@media (max-width: 580px) {
+  .section1_bottom{
+    display: none;
+  }
 }
 
-.car-info {
-list-style: none;
-padding: 0;
-margin: 10px 0;
-font-size: 14px;
-color: #666;
-}
-
-
-
-.icon-box {
-width: 45px;
-height: 45px;
-background: #e7f0ff;
-border-radius: 10px;
-margin-right: 15px;
-}
-
-
-.step-box {
-border-radius: 15px;
-background: #fff;
-}
-
-
-.step-icon {
-width: 50px;
-height: 50px;
-background: #e7f0ff;
-border-radius: 10px;
-margin: auto;
+@media (max-width: 580px) {
+  .hero-car img{
+    width: 400px;
+    margin-top: 80px;
+    margin-left: -50px;
+    margin-bottom: 0px;
+  }
 }
 
 .how-section{
   border-bottom: 1px solid lightslategrey;
+}
+
+.how_btn{
+  color: rgba(21, 114, 211, 1);
+  background-color: rgba(21, 114, 211, 0.1);
+  border: none;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+}
+
+.how_btn h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.how_title{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  color: black;
+}
+
+.step-box p{
+  color: rgba(109, 109, 109, 1);
+  font-weight: bold;
 }
 
 .footer-section {
@@ -127,6 +130,17 @@ margin: auto;
     font-weight: 600;
 }
 
+
+.footer-info li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-info li p {
+    margin: 0;
+}
+
 .footer-links li {
     margin-bottom: 8px;
 }
@@ -138,16 +152,12 @@ margin: auto;
 }
 
 .footer-links li a:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .footer-info li {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 14px;
-}
-
-.footer-logo {
-    width: 100px;
 }
 
 .footer-line {
@@ -162,18 +172,24 @@ margin: auto;
 
 .download-section {
     background: #F6FAFF;
-    padding-top: 80px;
+    padding-top: 80px;  
     padding-bottom: 80px;
     font-family: 'Poppins', sans-serif;
 }
 
 .download-badge {
-    background: #DDEBFF;
-    color: #4d7cc4;
+    background: rgba(21, 114, 211, 0.1);
     padding: 6px 14px;
     border-radius: 6px;
     font-size: 13px;
     font-weight: 500;
+}
+
+.download-badge h1{
+  font-size: 15px;
+  color: #0066FF;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .download-title {
@@ -209,18 +225,11 @@ margin: auto;
     border-bottom: 1px solid grey;
 }
 
-.testi_span{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#111;
-    font-weight: bold;
-}
-
 .testi-title {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    color: #363535;
+    font-weight: 550;
+    color: black;
 }
 
 .testi-card {
@@ -239,3 +248,13 @@ margin: auto;
     object-fit: cover;
 }
 
+.deals-section{
+  border-bottom: 1px solid lightslategrey;
+}
+
+.deals-title{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  color: black; 
+}
