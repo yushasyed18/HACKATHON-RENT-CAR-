@@ -27,7 +27,7 @@ body {
 }
 
 
-.section1_bottom{
+.sechero_bottom{
     margin-top: -10px;
     padding: 10px;
     box-shadow: 0px 6px 12px 0px #135EAC1F;
@@ -39,7 +39,7 @@ body {
 .search{
   background-color: #0066FF;
   color: black;
-  border-color: var(--primary-color);
+  border: none;
   padding: 8px 50px 8px 50px;
   border-radius: 8px;
 }
@@ -50,11 +50,11 @@ body {
   }
 }
 
-.p_date, .r_date{
+.date-1, .date-2{
 border-left: 2px solid #135EAC1F;
 }
 
-.img_location, .img_calender{
+.location, .calender{
   padding-left: 20px;
 }
 
@@ -63,7 +63,7 @@ border-left: 2px solid #135EAC1F;
     font-weight: 500;
 }
 
-.sign-in-btn {
+.sign-up-btn {
     background: #0066FF;
     padding: 8px 20px;
     border-radius: 8px;
@@ -71,6 +71,7 @@ border-left: 2px solid #135EAC1F;
     color: #fff !important;
     font-weight: 500;
 }
+
 
 .how_btn{
   color: rgba(21, 114, 211, 1);
@@ -319,25 +320,25 @@ small{
   box-shadow: 0 0 20px 4px rgba(8, 0, 20, 0.1);
 }
 
-.review-section {
+.testi-section {
   display: flex;
   align-items: center;
   gap: 2rem;
   padding: 2rem 0;
 }
 
-.review-image img {
+.testi-image img {
   width: 260px;
   height: auto;
   border-radius: 12px;
   object-fit: cover;
 }
 
-.review-content {
+.testi-content {
   max-width: 500px;
 }
 
-.rating-title {
+.testi-rating-title {
   font-family: Poppins;
   font-weight: 500;
   font-style: Medium;
@@ -347,7 +348,7 @@ small{
   margin: 0;
 }
 
-.star{
+.content-star{
   font-family: Poppins;
   font-weight: 500;
   font-style: Medium;
@@ -356,40 +357,40 @@ small{
   letter-spacing: 0%;
 }
 
-.stars img {
+.content-stars img {
   margin-right: 4px;
 }
 
-.review-text {
+.testi-text {
   font-size: 1rem;
   margin: 1rem 0 1.5rem;
   line-height: 1.6;
   color: #555;
 }
 
-.reviewer-name {
+.testi-name {
   font-size: 1.25rem;
   margin: 0;
   margin-top: 1rem;
   font-weight: 700;
 }
 
-.reviewer-location {
+.testi-location {
   margin: 0.3rem 0 0;
   color: #777;
 }
 
 @media (max-width: 768px) {
-  .review-section {
+  .testi-section {
     flex-direction: column;
     text-align: center;
   }
 
-  .review-image img {
+  .testi-image img {
     width: 180px;
   }
 
-  .stars img {
+  .content-stars img {
     width: 80px;
   }
 }
