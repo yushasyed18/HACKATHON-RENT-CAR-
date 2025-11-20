@@ -301,6 +301,25 @@ small{
   transform: scale(1.05);
 }
 
+.show-btn{
+  color: rgba(78, 78, 78, 1);
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgba(224, 224, 224, 1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+}
+
+@media (max-width: 482px) {
+  .show-btn{
+    padding: 2px 8px;
+  }
+  
+}
+
 .testimonials-section {
     background: #F6FAFF;
     font-family: 'Poppins', sans-serif;
